@@ -32,8 +32,8 @@ void setup()
 void loop() 
 {
     for(int i=0;i<180;i++){
-    delay(50);                              // 3. waits 500 milliseconds (0.5 sec). change the value in the brackets (500) for a longer or shorter delay in milliseconds.
-    servoMD.write(i);    // 4. turns servo back to rest position. Modify initial position by modifying the 'ServoRestPosition' definition above.                              // 5. waits 500 milliseconds (0.5 sec). change the value in the brackets (500) for a longer or shorter delay in milliseconds.                 // 6. release the servo to conserve power. When detached the servo will NOT hold it's position under stress.
+    delay(50);                             
+    servoMD.write(i);                      
     }
 
     for(int i=180;i>0;i--){
